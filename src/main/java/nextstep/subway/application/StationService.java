@@ -11,7 +11,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-@Transactional(readOnly = true)
 public class StationService {
     private StationRepository stationRepository;
 
